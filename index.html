@@ -17,6 +17,7 @@
   
   <!-- Stylesheets -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap-4-navbar.css" rel="stylesheet">
   
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -120,13 +121,16 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sản Phẩm
                                       <span class="caret"></span>
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropright">
                                       <li>
                                             <a href="contact.html"><font color=grey><b>Sản Phẩm Đặc Biệt</b></font></a>  
                                       </li>
-                                      <li>
-                                            <a href="contact.html"><font color=grey><b>Terrarium và Phụ Kiện</b></font></a>
-                                      </li>
+                                      <li><a href="contact.html" class="dropdown-item dropdown-toggle">Terrarium và Phụ Kiện</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"><font color=grey><b>Do smt</b></font></a></li>
+                                            <li><a class="dropdown-item" href="#"><font color=grey><b>Another smt</b></font></a></li>
+                                        </ul>
+                                    </li>
                                       <li>
                                             <a href="contact.html"><font color=grey><b>Cây Phong Thủy - Cây Nội Thất</b></font></a>
                                       </li>
@@ -841,6 +845,8 @@
 <script src="plugins/jquery-ui.js"></script>
 <script src="plugins/timePicker.js"></script>
 <script src="js/script.js"></script>
+
+<script src="js/bootstrap-4-navbar.js"></script>
 
 </body>
 
